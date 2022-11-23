@@ -3,9 +3,9 @@
  * which returns a Promise
  */
 
-export function getResponsefromAPI() {
-	return new Promise((resolve, reject) => {
-		resolve();
-		reject();
-	});
+export default function getResponsefromAPI() {
+  return new Promise((resolve, reject) => {
+    resolve();
+    reject();
+  });
 }
